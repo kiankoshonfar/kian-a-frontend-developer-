@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Kian Koshonfar — Front-End Developer Portfolio">
+  <title>Kian Koshonfar | Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Kian home"><span class="brand-mark">K</span><span>KIAN<span class="brand-dot">.</span></span></a>
+    <nav class="nav">
+      <a href="#about" data-en="About" data-fa="درباره من">About</a>
+      <a href="#skills" data-en="Skills" data-fa="مهارت‌ها">Skills</a>
+      <a href="#contact" data-en="Contact" data-fa="ارتباط">Contact</a>
+    </nav>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">FA <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span><span data-en="AVAILABLE FOR LEARNING & COLLABORATION" data-fa="آماده یادگیری و همکاری">AVAILABLE FOR LEARNING & COLLABORATION</span></div>
+        <p class="hello" data-en="HELLO, I'M" data-fa="سلام، من">HELLO, I'M</p>
+        <h1>Kian<br><span>Koshonfar</span><i class="cursor"></i></h1>
+        <h2 data-en="Front-End Developer in Progress" data-fa="توسعه‌دهنده فرانت‌اند در مسیر یادگیری">Front-End Developer in Progress</h2>
+        <p class="hero-text" data-en="I enjoy turning ideas into clean, responsive web interfaces. I build personal projects with HTML and CSS, and I’m growing my JavaScript skills while learning front-end frameworks." data-fa="از تبدیل ایده‌ها به رابط‌های وب زیبا و واکنش‌گرا لذت می‌برم. با HTML و CSS پروژه‌های شخصی می‌سازم و هم‌زمان مهارت JavaScript را تقویت می‌کنم و فریم‌ورک‌های فرانت‌اند را یاد می‌گیرم.">I enjoy turning ideas into clean, responsive web interfaces. I build personal projects with HTML and CSS, and I’m growing my JavaScript skills while learning front-end frameworks.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/kiankoshonfar" target="_blank" rel="noopener noreferrer"><span data-en="Explore my GitHub" data-fa="مشاهده گیت‌هاب من">Explore my GitHub</span><b>↗</b></a>
+          <a class="button ghost" href="https://github.com/kiankoshonfar" target="_blank" rel="noopener noreferrer"><span data-en="Visit my GitHub" data-fa="مشاهده گیت‌هاب من">Visit my GitHub</span><b>↗</b></a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="meta-dot"></i><span data-en="Learning by building" data-fa="یادگیری از طریق ساخت پروژه">Learning by building</span></span>
+          <span class="meta-sep">/</span>
+          <span data-en="Self-taught journey" data-fa="مسیر یادگیری خودآموز">Self-taught journey</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract futuristic code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core-card">
+          <div class="core-top"><span></span><span></span><span></span><small>kian.dev</small></div>
+          <div class="code-lines">
+            <p><em>01</em> <span class="purple">const</span> <span class="cyan">developer</span> = {</p>
+            <p class="indent"><em>02</em> passion: <span class="green">'web'</span>,</p>
+            <p class="indent"><em>03</em> focus: <span class="green">'front-end'</span>,</p>
+            <p class="indent"><em>04</em> mindset: <span class="green">'always learning'</span></p>
+            <p><em>05</em> };</p>
+            <p class="code-cursor"><em>06</em> <span class="cyan">build</span>(<span class="green">'something cool'</span>);</p>
+          </div>
+          <div class="core-footer"><span>HTML&nbsp; / &nbsp;CSS&nbsp; / &nbsp;JS</span><span class="live"><i></i> <span data-en="LEARNING MODE" data-fa="حالت یادگیری">LEARNING MODE</span></span></div>
+        </div>
+        <div class="float-chip chip-a">{"< />"}</div>
+        <div class="float-chip chip-b">CSS<span>95%</span></div>
+        <div class="float-chip chip-c">JS<span>45%</span></div>
+        <div class="glow"></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span><small data-en="SCROLL TO EXPLORE" data-fa="برای مشاهده بیشتر پایین برو">SCROLL TO EXPLORE</small></a>
+    </section>
+
+    <section class="section-wrap about-section" id="about">
+      <div class="section-heading"><p class="section-index">01 / <span data-en="ABOUT" data-fa="درباره">ABOUT</span></p><h2 data-en="Curious mind. <span>Creative code.</span>" data-fa="ذهن کنجکاو، <span>کدنویسی خلاقانه.</span>">Curious mind. <span>Creative code.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead" data-en="I’m Kian, an aspiring front-end developer who enjoys learning by building. I haven’t worked on professional projects yet; my focus is on practice, personal projects, and improving step by step." data-fa="من کیان هستم؛ علاقه‌مند به توسعه فرانت‌اند که با ساختن پروژه، بهتر یاد می‌گیرد. هنوز تجربه پروژه حرفه‌ای ندارم و تمرکزم روی تمرین، ساخت نمونه‌کارهای شخصی و پیشرفت قدم‌به‌قدم است.">I’m Kian, an aspiring front-end developer who enjoys learning by building. I haven’t worked on professional projects yet; my focus is on practice, personal projects, and improving step by step.</p>
+        <div class="about-note"><span class="note-icon">✳</span><p data-en="My current goal is to strengthen JavaScript, learn a front-end framework, and create more useful projects." data-fa="هدف فعلی من تقویت JavaScript، یادگیری یک فریم‌ورک فرانت‌اند و ساخت پروژه‌های کاربردی‌تر است.">My current goal is to strengthen JavaScript, learn a front-end framework, and create more useful projects.</p></div>
+      </div>
+    </section>
+
+    <section class="section-wrap skills-section" id="skills">
+      <div class="section-heading"><p class="section-index">02 / <span data-en="TOOLKIT" data-fa="ابزارها">TOOLKIT</span></p><h2 data-en="Skills & <span>learning path</span>" data-fa="مهارت‌ها و <span>مسیر یادگیری</span>">Skills & <span>learning path</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol">5</span><span class="skill-percent">95%</span></div><h3>HTML</h3><p data-en="Markup & page structure" data-fa="ساختاردهی صفحات وب">Markup & page structure</p><div class="meter"><i style="width:95%"></i></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol">✳</span><span class="skill-percent">95%</span></div><h3>CSS</h3><p data-en="Styling & responsive layouts" data-fa="استایل‌دهی و طراحی واکنش‌گرا">Styling & responsive layouts</p><div class="meter"><i style="width:95%"></i></div></article>
+        <article class="skill-card"><div class="skill-top"><span class="skill-symbol">JS</span><span class="skill-percent">45%</span></div><h3>JavaScript</h3><p data-en="Core concepts & interactivity" data-fa="مفاهیم پایه و تعاملی‌سازی">Core concepts & interactivity</p><div class="meter"><i style="width:45%"></i></div></article>
+        <article class="skill-card learning-card"><div class="skill-top"><span class="skill-symbol">↗</span><span class="learning-tag" data-en="IN PROGRESS" data-fa="در حال یادگیری">IN PROGRESS</span></div><h3 data-en="Frameworks" data-fa="فریم‌ورک‌ها">Frameworks</h3><p data-en="Currently learning" data-fa="در حال یادگیری">Currently learning</p><div class="learning-line"><span></span><span></span><span></span></div></article>
+      </div>
+      <p class="skill-disclaimer" data-en="Skill percentages are my own current estimates, not formal test scores." data-fa="درصد مهارت‌ها برآورد شخصی من از سطح فعلی توانایی‌هایم است و نتیجه آزمون رسمی نیست.">Skill percentages are my own current estimates, not formal test scores.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+  <div class="section-wrap contact-inner">
+    <div>
+      <p class="section-index">03 / <span data-en="CONTACT" data-fa="راه‌های ارتباطی">CONTACT</span></p>
+      <h2 data-en="Let’s <span>connect.</span>" data-fa="از این راه‌ها <span>با من در ارتباط باشید.</span>">Let’s <span>connect.</span></h2>
+      <p data-en="You can reach me through GitHub, email, phone, or Telegram." data-fa="می‌توانید از طریق گیت‌هاب، ایمیل، تلفن یا تلگرام با من در ارتباط باشید.">You can reach me through GitHub, email, phone, or Telegram.</p>
+    </div>
+    <div class="contact-links">
+      <a class="button primary contact-button" href="https://github.com/kiankoshonfar" target="_blank" rel="noopener noreferrer">
+        <span>GitHub · github.com/kiankoshonfar</span><b>↗</b>
+      </a>
+      <a class="button ghost contact-button" href="mailto:kiankoshonfar6@gmail.com">
+        <span>Email · kiankoshonfar6@gmail.com</span><b>↗</b>
+      </a>
+      <a class="button ghost contact-button" href="tel:09208515800">
+        <span data-en="Phone · 09208515800" data-fa="تلفن · 09208515800">Phone · 09208515800</span><b>↗</b>
+      </a>
+      <a class="button ghost contact-button" href="https://t.me/kiankoshonfar3" target="_blank" rel="noopener noreferrer">
+        <span>Telegram · @kiankoshonfar3</span><b>↗</b>
+      </a>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">K</span><span>KIAN<span class="brand-dot">.</span></span></a><p>© <span id="year"></span> Kian Koshonfar. <span data-en="Built with curiosity." data-fa="ساخته‌شده با کنجکاوی.">Built with curiosity.</span></p><a href="#home" class="back-top" data-en="BACK TO TOP ↑" data-fa="بازگشت به بالا ↑">BACK TO TOP ↑</a></footer>
+  <script>
+    (() => {
+      const initPortfolio = () => {
+        const toggle = document.getElementById("langToggle");
+        const year = document.getElementById("year");
+        if (year) year.textContent = new Date().getFullYear();
+        if (!toggle) return;
+
+        let currentLang = "en";
+
+        const setLanguage = (lang) => {
+          currentLang = lang === "fa" ? "fa" : "en";
+          const isFa = currentLang === "fa";
+
+          document.documentElement.lang = currentLang;
+          document.documentElement.dir = isFa ? "rtl" : "ltr";
+          document.body.setAttribute("dir", isFa ? "rtl" : "ltr");
+          document.title = isFa
+            ? "کیان کوشانفر | توسعه‌دهنده فرانت‌اند"
+            : "Kian Koshonfar | Front-End Developer";
+
+          document.querySelectorAll("[data-en][data-fa]").forEach((element) => {
+            element.innerHTML = element.getAttribute(isFa ? "data-fa" : "data-en");
+          });
+
+          toggle.innerHTML = isFa ? 'EN <span aria-hidden="true">↗</span>' : 'FA <span aria-hidden="true">↗</span>';
+          toggle.setAttribute("aria-label", isFa ? "Switch to English" : "تغییر زبان به فارسی");
+          toggle.setAttribute("title", isFa ? "Switch to English" : "تغییر زبان به فارسی");
+        };
+
+        toggle.addEventListener("click", () => {
+          setLanguage(currentLang === "en" ? "fa" : "en");
+        });
+
+        setLanguage("en");
+      };
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initPortfolio, { once: true });
+      } else {
+        initPortfolio();
+      }
+    })();
+  </script>
+</body>
+</html>
